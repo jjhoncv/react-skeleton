@@ -1,4 +1,5 @@
 import * as React from "react";
+import { NavLink } from "react-router-dom";
 // @ts-ignore
 import Logo from "./../../assets/imgs/logo.png";
 
@@ -15,10 +16,10 @@ export const Header = () => {
         <div className="header-right">
           <ul>
             <li>
-              <a href="/login">Login</a>
+              <NavLink to="/login">Login</NavLink>
             </li>
             <li>
-              <a href="/login">Register</a>
+              <NavLink to="/register">Register</NavLink>
             </li>
           </ul>
         </div>
